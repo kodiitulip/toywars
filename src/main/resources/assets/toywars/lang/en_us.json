@@ -1,3 +1,10 @@
 {
-  "item.toywars.example_item": "Example Item"
+  "item.toywars.example_item": "Example Item",
+  "item.toywars.second_item": "Second Item",
+
+  "block.toywars.example_block": "Example Block",
+  "block.toywars.second_block": "Second Block",
+
+  "itemgroup.toywars": "Toywars Tab",
+  "itemgroup.toywars_second": "Second Toywars Tab"
 }

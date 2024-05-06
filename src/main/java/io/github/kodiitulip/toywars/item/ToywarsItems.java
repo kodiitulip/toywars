@@ -1,4 +1,4 @@
-package io.github.kodiitulip.toywars.items;
+package io.github.kodiitulip.toywars.item;
 
 import io.github.kodiitulip.toywars.Toywars;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 
-public class ToywarsItem {
+public class ToywarsItems {
 
 	public static final Item EXAMPLE_ITEM = new Item(new QuiltItemSettings());
 	public static final Item SECOND_ITEM = new Item(new QuiltItemSettings());
@@ -52,6 +52,7 @@ public class ToywarsItem {
 		registerItem(MOD_ID, "second_item", SECOND_ITEM);
 
 		addToItemGroup(ItemGroups.INGREDIENTS, EXAMPLE_ITEM);
+		addToItemGroup(ItemGroups.COMBAT, SECOND_ITEM);
 		addToItemGroup(ItemGroups.COMBAT, SECOND_ITEM);
 
 		Toywars.LOGGER.info("Registering Mod Items for [{}]", mod.metadata().name());

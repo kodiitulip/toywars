@@ -1,6 +1,8 @@
 package io.github.kodiitulip.toywars;
 
-import io.github.kodiitulip.toywars.items.ToywarsItem;
+import io.github.kodiitulip.toywars.block.ToywarsBlocks;
+import io.github.kodiitulip.toywars.item.ToywarsItemGroups;
+import io.github.kodiitulip.toywars.item.ToywarsItems;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
@@ -11,7 +13,9 @@ public class Toywars implements ModInitializer {
 
     @Override
     public void onInitialize(ModContainer mod) {
-		ToywarsItem.registerModItems(mod);
+		ToywarsItemGroups.registerModItemGroups(mod);
+		ToywarsBlocks.registerModBlocks(mod);
+		ToywarsItems.registerModItems(mod);
 
         LOGGER.info("Hello from {}! Stay fresh!", mod.metadata().name());
     }
