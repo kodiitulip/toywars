@@ -4,7 +4,9 @@
 
   "block.toywars.example_block": "Example Block",
   "block.toywars.second_block": "Second Block",
+  "block.toywars.example_ore": "Example Ore",
+  "block.toywars.deepslate_example_ore": "Deepslate Example Ore",
 
-  "itemgroup.toywars": "Toywars Tab",
-  "itemgroup.toywars_second": "Second Toywars Tab"
+  "itemgroup.toywars_items": "Toywars Items",
+  "itemgroup.toywars_blocks": "Toywars Blocks"
 }

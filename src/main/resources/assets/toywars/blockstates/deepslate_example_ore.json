@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "toywars:block/deepslate_example_ore"
+    }
+  }
+}

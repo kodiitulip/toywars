@@ -3,7 +3,6 @@ package io.github.kodiitulip.toywars.item;
 import io.github.kodiitulip.toywars.Toywars;
 import io.github.kodiitulip.toywars.block.ToywarsBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,28 +17,31 @@ public class ToywarsItemGroups {
 
 	private static final ItemConvertible[] TOYWARS_ITEM_ENTRIES = {
 		ToywarsItems.EXAMPLE_ITEM,
-		ToywarsBlocks.EXAMPLE_BLOCK,
-		ToywarsBlocks.SECOND_BLOCK,
+		ToywarsItems.SECOND_ITEM,
 	};
 
-	public static final ItemGroup TOYWARS_GROUP = generateItemGroup(
-		"itemgroup.toywars",
+	public static final ItemGroup TOYWARS_ITEMS_GROUP = generateItemGroup(
+		"itemgroup.toywars_items",
 		ToywarsItems.EXAMPLE_ITEM,
 		TOYWARS_ITEM_ENTRIES
 	);
-	public static final ItemGroup TOYWARS_SEC_GROUP = generateItemGroup(
-		"itemgroup.toywars_second",
-		ToywarsItems.SECOND_ITEM,
+	public static final ItemGroup TOYWARS_BLOCKS_GROUP = generateItemGroup(
+		"itemgroup.toywars_blocks",
+		ToywarsBlocks.EXAMPLE_BLOCK,
 		new ItemConvertible[]{
-			ToywarsItems.EXAMPLE_ITEM,
-			ToywarsItems.SECOND_ITEM,
+			ToywarsBlocks.EXAMPLE_BLOCK,
+			ToywarsBlocks.SECOND_BLOCK,
+			ToywarsBlocks.EXAMPLE_ORE,
+			ToywarsBlocks.DEEPSLATE_EXAMPLE_ORE,
 		}
 	);
 
-	private static ItemGroup generateItemGroup(String name, Item display_item, ItemConvertible[] items) {
+	private static ItemGroup generateItemGroup(String name,
+											   ItemConvertible ditem,
+											   ItemConvertible[] items) {
 		return FabricItemGroup.builder()
 			.name(Text.translatable(name))
-			.icon(() -> new ItemStack(display_item))
+			.icon(() -> new ItemStack(ditem))
 			.entries((displayParameters, itemStackCollector) -> {
 				for (ItemConvertible item : items) {
 					itemStackCollector.addItem(item);
@@ -47,7 +49,9 @@ public class ToywarsItemGroups {
 			}).build();
 	}
 
-	private static void registerItemGroup(String modid, String name, ItemGroup item_group) {
+	private static void registerItemGroup(String modid,
+										  String name,
+										  ItemGroup item_group) {
 		Registry.register(
 			Registries.ITEM_GROUP,
 			new Identifier(modid, name),
@@ -58,8 +62,8 @@ public class ToywarsItemGroups {
 	public static void registerModItemGroups(@NotNull ModContainer mod) {
 		final String MOD_ID = mod.metadata().id();
 
-		registerItemGroup(MOD_ID, "toywars", TOYWARS_GROUP);
-		registerItemGroup(MOD_ID, "toywars_second", TOYWARS_SEC_GROUP);
+		registerItemGroup(MOD_ID, "toywars", TOYWARS_ITEMS_GROUP);
+		registerItemGroup(MOD_ID, "toywars_second", TOYWARS_BLOCKS_GROUP);
 
 		Toywars.LOGGER.info("Registering Mod ItemGrops for [{}]", mod.metadata().name());
 	}

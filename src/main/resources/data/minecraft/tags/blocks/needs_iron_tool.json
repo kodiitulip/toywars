@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "toywars:example_ore",
+    "toywars:deepslate_example_ore",
+    "toywars:example_block"
+  ]
+}
