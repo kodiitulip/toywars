@@ -1,6 +1,6 @@
 package io.github.kodiitulip.toywars.mixin;
 
-import io.github.kodiitulip.toywars.Toywars;
+import io.github.kodiitulip.toywars.common.Toywars;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

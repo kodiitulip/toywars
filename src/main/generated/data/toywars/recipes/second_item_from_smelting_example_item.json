@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "example",
+  "ingredient": {
+    "item": "toywars:example_item"
+  },
+  "result": "toywars:second_item"
+}

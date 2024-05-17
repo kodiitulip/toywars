@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "toywars:second_block",
+    "toywars:example_block",
+    "#toywars:example_ores"
+  ]
+}

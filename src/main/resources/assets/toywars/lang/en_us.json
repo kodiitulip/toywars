@@ -1,12 +1,15 @@
 {
   "item.toywars.example_item": "Example Item",
   "item.toywars.second_item": "Second Item",
+  "item.toywars.living_toy_spawn_egg": "Living Toy Spawn Egg",
 
   "block.toywars.example_block": "Example Block",
   "block.toywars.second_block": "Second Block",
   "block.toywars.example_ore": "Example Ore",
   "block.toywars.deepslate_example_ore": "Deepslate Example Ore",
 
-  "itemgroup.toywars_items": "Toywars Items",
-  "itemgroup.toywars_blocks": "Toywars Blocks"
+  "itemgroup.toywars.items": "Toywars Items",
+  "itemgroup.toywars.blocks": "Toywars Blocks",
+
+  "entity.toywars.living_toy": "Living Toy"
 }

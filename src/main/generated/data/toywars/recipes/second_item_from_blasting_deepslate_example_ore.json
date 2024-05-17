@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "example",
+  "ingredient": {
+    "item": "toywars:deepslate_example_ore"
+  },
+  "result": "toywars:second_item"
+}

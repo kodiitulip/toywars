@@ -1,0 +1,5 @@
+// 1.20.1	2024-05-16T21:41:17.6454403	Toy Wars/Tags for minecraft:block
+c8dd94e0526bf1c371f739ec68719c94b88d23ae data\minecraft\tags\blocks\needs_iron_tool.json
+ddf79d1a747d516c27c8ece0b78a4edbf16580ef data\toywars\tags\blocks\example_blocks.json
+beb9c145e434238a2e7d38c35e3f4409df4aebbd data\toywars\tags\blocks\example_ores.json
+c8dd94e0526bf1c371f739ec68719c94b88d23ae data\minecraft\tags\blocks\mineable\pickaxe.json

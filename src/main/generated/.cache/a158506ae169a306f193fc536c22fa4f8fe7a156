@@ -1,0 +1,16 @@
+// 1.20.1	2024-05-16T21:41:17.5994385	Toy Wars/Model Definitions
+c6b01dac8965cd69f7062e5e41751725301c047f assets\toywars\models\block\second_block.json
+622cd344007492a0be4656f18422ee90a7e6014f assets\toywars\models\block\deepslate_example_ore.json
+aa1e38f0ea6d6202c785e9846d2d701669c0172c assets\toywars\models\item\example_block.json
+b3391788a1091a3b2e8c571cc9cd385b6a13e7cf assets\toywars\blockstates\example_block.json
+bd2a6ccb367e36d14b6fae7923f14080ba381284 assets\toywars\models\item\example_item.json
+5c2c9b48817415244e6af745dd1a88fe103cfdaf assets\toywars\models\item\deepslate_example_ore.json
+84e199ca1bbe68d98ad9b21c81af0af340ab1867 assets\toywars\blockstates\second_block.json
+387912490360f6a356b766b1daca4e6de41248d8 assets\toywars\models\block\example_ore.json
+9a195dcf078dbef2089c36376339692908c3d946 assets\toywars\models\item\example_ore.json
+b08cb9fa86d1ae1e406028259c74ba9363389d40 assets\toywars\models\item\second_block.json
+b84abee1dbc08a1b7e60472697dcf19bdf638f06 assets\toywars\models\block\example_block.json
+fc00337ce2389ad5dae9bcf704f43afe0c0e0af5 assets\toywars\blockstates\deepslate_example_ore.json
+02118853620f3d9654b109c0baf3961db00b7a97 assets\toywars\blockstates\example_ore.json
+c239af7633eeeb01ab9bcf8097798a5c868e518d assets\toywars\models\item\second_item.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\toywars\models\item\living_toy_spawn_egg.json

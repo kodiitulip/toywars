@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "toywars:example_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "toywars:example_item"
+  }
+}

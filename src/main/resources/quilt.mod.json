@@ -16,8 +16,9 @@
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
         "entrypoints": {
-            "init": "io.github.kodiitulip.toywars.Toywars",
-						"fabric-datagen": "io.github.kodiitulip.toywars.ToywarsDataGenerator"
+            "init": "io.github.kodiitulip.toywars.common.Toywars",
+            "client_init": "io.github.kodiitulip.toywars.client.ToywarsClient",
+						"fabric-datagen": "io.github.kodiitulip.toywars.common.util.ToywarsDataGenerator"
         },
         "depends": [
             {

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "toywars:block/example_block"
+    }
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "toywars:example_block",
-    "toywars:second_block",
-    "toywars:example_ore",
-    "toywars:deepslate_example_ore"
-  ]
-}
